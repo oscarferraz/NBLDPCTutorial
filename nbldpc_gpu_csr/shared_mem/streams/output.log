@@ -1,0 +1,12 @@
+==15707== NVPROF is profiling process 15707, command: ./min_max
+==15707== Warning: Unified Memory Profiling is not supported on the underlying platform. System requirements for unified memory can be found at: http://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#um-requirements
+==15707== Profiling application: ./min_max
+==15707== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   61.09%  62.144us        94     661ns     320ns  19.040us  cuDeviceGetAttribute
+                   26.17%  26.624us         1  26.624us  26.624us  26.624us  cudaGetDeviceProperties
+                    5.35%  5.4400us         1  5.4400us  5.4400us  5.4400us  cuDeviceTotalMem
+                    4.53%  4.6080us         3  1.5360us     640ns  2.9440us  cuDeviceGetCount
+                    1.82%  1.8560us         2     928ns     640ns  1.2160us  cuDeviceGet
+                    1.04%  1.0560us         1  1.0560us  1.0560us  1.0560us  cuDeviceGetName

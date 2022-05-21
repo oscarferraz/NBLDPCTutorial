@@ -1,0 +1,32 @@
+
+
+# Target rules
+all: build clean
+
+build: min_max
+
+check.deps:
+ifeq ($(SAMPLE_ENABLED),0)
+	@echo "Sample will be waived due to the above missing dependencies"
+else
+	@echo "Sample is ready - all dependencies have been met"
+endif
+.PHONY: nbldpc.o nbldpc.h
+nbldpc.o: nbldpc.cpp
+	g++ -march=native -O1 -Wall  -o $@ -c $<
+
+.PHONY: run_test.o nbldpc.h
+run_test.o: run_test.cpp
+	g++ -march=native -O1 -Wall  -o $@ -c $< #-DERROR_CHECK
+
+.PHONY: min_max
+min_max: nbldpc.o run_test.o 
+	g++ -march=native -O1 -Wall  -o $@ $+ 
+
+run:
+	$(EXEC) ./min_max
+
+clean: 
+	rm -f nbldpc.o run_test.o 
+
+

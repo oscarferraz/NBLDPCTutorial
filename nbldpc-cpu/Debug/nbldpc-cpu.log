@@ -1,0 +1,41 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  nbldpc.cpp
+c:\users\oscar\desktop\nbldpc-cpu\src\nbldpc.cpp(256): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\oscar\desktop\nbldpc-cpu\src\nbldpc.cpp(257): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\oscar\desktop\nbldpc-cpu\src\nbldpc.cpp(258): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\oscar\desktop\nbldpc-cpu\src\nbldpc.cpp(259): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\oscar\desktop\nbldpc-cpu\src\nbldpc.cpp(260): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\oscar\desktop\nbldpc-cpu\src\nbldpc.cpp(261): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\oscar\desktop\nbldpc-cpu\src\nbldpc.cpp(262): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\oscar\desktop\nbldpc-cpu\src\nbldpc.cpp(263): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\oscar\desktop\nbldpc-cpu\src\nbldpc.cpp(264): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\oscar\desktop\nbldpc-cpu\src\nbldpc.cpp(265): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\oscar\desktop\nbldpc-cpu\src\nbldpc.cpp(266): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\oscar\desktop\nbldpc-cpu\src\nbldpc.cpp(238): warning C4101: 'row_p': unreferenced local variable
+  Generating Code...
+  Compiling...
+  run_test.cpp
+c:\users\oscar\desktop\nbldpc-cpu\src\run_test.cpp(515): warning C4101: 'tmp': unreferenced local variable
+c:\users\oscar\desktop\nbldpc-cpu\src\run_test.cpp(520): warning C4101: 'frow_col': unreferenced local variable
+c:\users\oscar\desktop\nbldpc-cpu\src\run_test.cpp(519): warning C4101: 'fpp': unreferenced local variable
+c:\users\oscar\desktop\nbldpc-cpu\src\run_test.cpp(676): warning C4473: 'sscanf' : not enough arguments passed for format string
+  c:\users\oscar\desktop\nbldpc-cpu\src\run_test.cpp(676): note: placeholders and their parameters expect 3 variadic arguments, but 2 were provided
+  c:\users\oscar\desktop\nbldpc-cpu\src\run_test.cpp(676): note: the missing variadic argument 3 is required by format string '%d'
+  Generating Code...
+c:\users\oscar\desktop\nbldpc-cpu\src\run_test.cpp(668): warning C4700: uninitialized local variable 'fp' used
+c:\users\oscar\desktop\nbldpc-cpu\src\run_test.cpp(738): warning C4700: uninitialized local variable 'frow_col' used
+c:\users\oscar\desktop\nbldpc-cpu\src\run_test.cpp(771): warning C4700: uninitialized local variable 'fcol_row' used
+c:\users\oscar\desktop\nbldpc-cpu\src\run_test.cpp(781): warning C4700: uninitialized local variable 'fpp' used
+nbldpc.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  nbldpc-cpu.vcxproj -> C:\Users\Oscar\Desktop\nbldpc-cpu\Debug\nbldpc-cpu.exe
