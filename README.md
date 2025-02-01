@@ -8,4 +8,3 @@ Please cite my work if this code or this papers are useful for you.
 
 I might release a cleaner version of this some time in the future, but probably not, because I'm working on other stuff now.
 
-Good luck!
